@@ -1,8 +1,6 @@
 // Question Link - https://leetcode.com/problems/flipping-an-image/?envType=problem-list-v2&envId=array
 // Question Name - Flipping an Image
 #include <vector>
-#include <iostream>
-#include <algorithm>
 
 class Solution
 {
@@ -14,7 +12,7 @@ public:
         {
             for (int j = 0; j < n / 2; j++)
             {
-                swap(image[i][j], image[i][n - j - 1]);
+                std :: swap(image[i][j], image[i][n - j - 1]);  // Flipping the numbers horizontally
             }
         }
         for (int i = 0; i < n; i++)
@@ -23,7 +21,7 @@ public:
             {
                 if (image[i][j] == 0)
                 {
-                    image[i][j] = 1 - image[i][j];
+                    image[i][j] = 1 - image[i][j];     // Toggling the numbers , from 0 to 1 and from 1 to 0
                 }
                 else
                 {
@@ -34,3 +32,5 @@ public:
         return image;
     }
 };
+// Time Complexity = O(n^2)
+// Space complexity = O(1)
