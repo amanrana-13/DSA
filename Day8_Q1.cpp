@@ -29,7 +29,7 @@ public:
 
 // Question 2 
 // Question Link - https://leetcode.com/problems/rotate-array/description/
-// Question Name - Rotate Array
+// Question Name - Rotate Arrays
 
 #include <iostream>
 #include <vector>
