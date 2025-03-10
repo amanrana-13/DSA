@@ -1,5 +1,5 @@
 // Question 2
-// Question Link - https://leetcode.com/problems/two-sum/description/
+// Question Link - https://leetcode.com/problems/sort-colors/description/
 // Question Name - Sort Colors
 #include <iostream>
 #include <vector>
