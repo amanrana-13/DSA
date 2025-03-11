@@ -29,7 +29,7 @@ class Solution {
 // Space Complexity - O(n)
 
 
-// Question 3
+// Question 2
 // Question Link - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
 // Question Name - Best Time to Buy and Sell Stock
 
