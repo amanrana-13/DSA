@@ -25,6 +25,9 @@ class Solution {
         }
     };
 
+// Time Complexity - O(n)
+// Space Complexity - O(n)
+
 
 // Question 3
 // Question Link - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
