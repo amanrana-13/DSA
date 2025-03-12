@@ -21,8 +21,8 @@ class Solution {
         }
     };
 
-// Time Complexity - O()
-// Space Complexity - O()
+// Time Complexity - O(n^2)
+// Space Complexity - O(n^2)
 
 
 // Question - 48 - Rotate Image 
