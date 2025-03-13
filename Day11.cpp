@@ -44,10 +44,8 @@ class Solution {
         }
     };
 
-
-
-// Time Complexity - O()
-// Space Complexity - O()
+// Time Complexity - O(n^2)
+// Space Complexity - O(1)
 
 
 // Question - 54 - Spiral Image 
