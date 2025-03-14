@@ -1,3 +1,26 @@
+// Question - 704 - Binary Search
+// Question Link - https://leetcode.com/problems/binary-search/description/
+#include <stdio.h>
+#include <vector>
+#include <algorithm>
+using namespace std;
+class Solution {
+    public:
+        int search(vector<int>& nums, int target) {
+            int n = nums.size();
+            for (int i = 0; i < n; i++) {
+                if (nums[i] == target) {
+                    return i;
+                }
+            }
+            return -1;
+        }
+    };
+
+// Time Complexity - O(n)
+// Space Complexity - O(1)
+
+
 // Question - 34 - Find First and Last Position of Element in Sorted Array
 // Question Link - https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
 
