@@ -1,8 +1,6 @@
 // Question - 153 - Find Minimum in Rotated Sorted Array
 // Question Link - https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
-#include <stdio.h>
-#include <vector>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
 // Time Complexity - O()
