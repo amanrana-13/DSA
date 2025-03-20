@@ -30,3 +30,9 @@ public:
 
 // Time Complexity - O(n log n)
 // Space Complexity - O(M) M - maximum length of the strings in the input vector
+
+// Question - 242. Valid Anagram
+// Question Link - https://leetcode.com/problems/longest-common-prefix/description/
+
+// Time Complexity - O()
+// Space Complexity - O()
