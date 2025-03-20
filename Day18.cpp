@@ -43,12 +43,10 @@ public:
             return false;
         }
         unordered_map<char, int> charCounts;
-
         for (char c : s)
         {
             charCounts[c]++;
         }
-
         for (char c : t)
         {
             if (charCounts.find(c) == charCounts.end() || charCounts[c] == 0)
@@ -57,7 +55,6 @@ public:
             }
             charCounts[c]--;
         }
-
         return true;
     }
 };
