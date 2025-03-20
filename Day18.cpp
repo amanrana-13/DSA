@@ -33,6 +33,34 @@ public:
 
 // Question - 242. Valid Anagram
 // Question Link - https://leetcode.com/problems/longest-common-prefix/description/
+class Solution
+{
+public:
+    bool isAnagram(string s, string t)
+    {
+        if (s.length() != t.length())
+        {
+            return false;
+        }
+        unordered_map<char, int> charCounts;
 
-// Time Complexity - O()
-// Space Complexity - O()
+        for (char c : s)
+        {
+            charCounts[c]++;
+        }
+
+        for (char c : t)
+        {
+            if (charCounts.find(c) == charCounts.end() || charCounts[c] == 0)
+            {
+                return false;
+            }
+            charCounts[c]--;
+        }
+
+        return true;
+    }
+};
+
+// Time Complexity - O(N) N- length of the string
+// Space Complexity - O(N)
